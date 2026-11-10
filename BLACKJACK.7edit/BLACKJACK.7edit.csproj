@@ -52,6 +52,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Carta.cs" />
+    <Compile Include="Controles.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Estadisticas.cs" />
+    <Compile Include="Mano.cs" />
+    <Compile Include="Mazo.cs" />
+    <Compile Include="Simulador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
